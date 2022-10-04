@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DetailsView.swift
 //  Petlove SwiftUI
 //
 //  Created by Murillo R. Araújo on 30/09/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct DetailsView: View {
     var body: some View {
         ZStack {
             Color.neutralBG
@@ -15,8 +15,8 @@ struct HomeView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        DetailsView()
     }
 }
