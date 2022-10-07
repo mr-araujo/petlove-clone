@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6226721028F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6226720F28F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift */; };
 		6236070028E78D530087CC1D /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623606FF28E78D530087CC1D /* Color+Custom.swift */; };
 		6236070528E792D20087CC1D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236070428E792D20087CC1D /* DetailsView.swift */; };
 		6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236070728E793DB0087CC1D /* DetailsSummaryCardView.swift */; };
@@ -16,21 +17,18 @@
 		6248F67428E781FE0050DFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */; };
 		628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F43AB28ECED8C009F4BF9 /* ContentView.swift */; };
 		62ABDF7328F0C98100858BBD /* FooterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABDF7228F0C98100858BBD /* FooterCardView.swift */; };
-		62ABDF8128F0DAF400858BBD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7528F0DAF300858BBD /* Roboto-MediumItalic.ttf */; };
-		62ABDF8228F0DAF400858BBD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7628F0DAF300858BBD /* Roboto-LightItalic.ttf */; };
 		62ABDF8328F0DAF400858BBD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */; };
 		62ABDF8428F0DAF400858BBD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7828F0DAF300858BBD /* Roboto-Italic.ttf */; };
 		62ABDF8528F0DAF400858BBD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7928F0DAF300858BBD /* Roboto-Black.ttf */; };
-		62ABDF8628F0DAF400858BBD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7A28F0DAF300858BBD /* Roboto-ThinItalic.ttf */; };
 		62ABDF8728F0DAF400858BBD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7B28F0DAF300858BBD /* Roboto-Medium.ttf */; };
-		62ABDF8828F0DAF400858BBD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7C28F0DAF300858BBD /* Roboto-BoldItalic.ttf */; };
 		62ABDF8928F0DAF400858BBD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7D28F0DAF300858BBD /* Roboto-Bold.ttf */; };
 		62ABDF8A28F0DAF400858BBD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7E28F0DAF300858BBD /* Roboto-Regular.ttf */; };
 		62ABDF8B28F0DAF400858BBD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7F28F0DAF400858BBD /* Roboto-Light.ttf */; };
-		62ABDF8C28F0DAF400858BBD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF8028F0DAF400858BBD /* Roboto-BlackItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6226720E28F0E043001A3CCD /* Petlove-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Petlove-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6226720F28F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystemFont+ViewModifier.swift"; sourceTree = "<group>"; };
 		623606FF28E78D530087CC1D /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
 		6236070428E792D20087CC1D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		6236070728E793DB0087CC1D /* DetailsSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSummaryCardView.swift; sourceTree = "<group>"; };
@@ -41,18 +39,13 @@
 		6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		628F43AB28ECED8C009F4BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62ABDF7228F0C98100858BBD /* FooterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCardView.swift; sourceTree = "<group>"; };
-		62ABDF7528F0DAF300858BBD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		62ABDF7628F0DAF300858BBD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		62ABDF7828F0DAF300858BBD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		62ABDF7928F0DAF300858BBD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		62ABDF7A28F0DAF300858BBD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		62ABDF7B28F0DAF300858BBD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		62ABDF7C28F0DAF300858BBD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		62ABDF7D28F0DAF300858BBD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		62ABDF7E28F0DAF300858BBD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		62ABDF7F28F0DAF400858BBD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		62ABDF8028F0DAF400858BBD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				623606FF28E78D530087CC1D /* Color+Custom.swift */,
+				6226720F28F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -128,6 +122,7 @@
 		6248F66B28E781FD0050DFD6 /* Petlove SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6226720E28F0E043001A3CCD /* Petlove-SwiftUI-Info.plist */,
 				6248F66C28E781FD0050DFD6 /* PetloveApp.swift */,
 				623606FE28E78D2A0087CC1D /* Utils */,
 				62ABDF7428F0DAC900858BBD /* Fonts */,
@@ -159,17 +154,12 @@
 			isa = PBXGroup;
 			children = (
 				62ABDF7928F0DAF300858BBD /* Roboto-Black.ttf */,
-				62ABDF8028F0DAF400858BBD /* Roboto-BlackItalic.ttf */,
 				62ABDF7D28F0DAF300858BBD /* Roboto-Bold.ttf */,
-				62ABDF7C28F0DAF300858BBD /* Roboto-BoldItalic.ttf */,
 				62ABDF7828F0DAF300858BBD /* Roboto-Italic.ttf */,
 				62ABDF7F28F0DAF400858BBD /* Roboto-Light.ttf */,
-				62ABDF7628F0DAF300858BBD /* Roboto-LightItalic.ttf */,
 				62ABDF7B28F0DAF300858BBD /* Roboto-Medium.ttf */,
-				62ABDF7528F0DAF300858BBD /* Roboto-MediumItalic.ttf */,
 				62ABDF7E28F0DAF300858BBD /* Roboto-Regular.ttf */,
 				62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */,
-				62ABDF7A28F0DAF300858BBD /* Roboto-ThinItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -234,17 +224,12 @@
 			files = (
 				6248F67428E781FE0050DFD6 /* Preview Assets.xcassets in Resources */,
 				62ABDF8428F0DAF400858BBD /* Roboto-Italic.ttf in Resources */,
-				62ABDF8128F0DAF400858BBD /* Roboto-MediumItalic.ttf in Resources */,
-				62ABDF8C28F0DAF400858BBD /* Roboto-BlackItalic.ttf in Resources */,
-				62ABDF8228F0DAF400858BBD /* Roboto-LightItalic.ttf in Resources */,
 				62ABDF8928F0DAF400858BBD /* Roboto-Bold.ttf in Resources */,
-				62ABDF8628F0DAF400858BBD /* Roboto-ThinItalic.ttf in Resources */,
 				62ABDF8A28F0DAF400858BBD /* Roboto-Regular.ttf in Resources */,
 				62ABDF8528F0DAF400858BBD /* Roboto-Black.ttf in Resources */,
 				62ABDF8328F0DAF400858BBD /* Roboto-Thin.ttf in Resources */,
 				62ABDF8B28F0DAF400858BBD /* Roboto-Light.ttf in Resources */,
 				6248F67128E781FE0050DFD6 /* Assets.xcassets in Resources */,
-				62ABDF8828F0DAF400858BBD /* Roboto-BoldItalic.ttf in Resources */,
 				62ABDF8728F0DAF400858BBD /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +246,7 @@
 				628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */,
 				6248F66F28E781FD0050DFD6 /* HomeView.swift in Sources */,
 				62ABDF7328F0C98100858BBD /* FooterCardView.swift in Sources */,
+				6226721028F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift in Sources */,
 				6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */,
 				6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */,
 			);
@@ -319,6 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -373,6 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -394,6 +382,7 @@
 				DEVELOPMENT_TEAM = C97V5ZU9S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Petlove-SwiftUI-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -424,6 +413,7 @@
 				DEVELOPMENT_TEAM = C97V5ZU9S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Petlove-SwiftUI-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

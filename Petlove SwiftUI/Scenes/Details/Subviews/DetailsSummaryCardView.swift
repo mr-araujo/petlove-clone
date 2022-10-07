@@ -19,18 +19,16 @@ struct DetailsSummaryCardView: View {
 
             HStack {
                 Text("Data de Pagamento")
-                    .font(.custom("", fixedSize: 20))
+                    .designSystemFont(.extraSmallTitle, .bold)
                     .foregroundColor(.neutralDarkest)
-                    .fontWeight(.black)
 
                 Spacer()
             }.padding([.horizontal, .bottom])
 
             HStack {
                 Text("14 de Março")
-                    .font(.custom("", fixedSize: 20))
+                    .designSystemFont(.extraSmallTitle, .medium)
                     .foregroundColor(.neutralDarkest)
-                    .fontWeight(.bold)
 
                 Spacer()
             }
@@ -39,29 +37,26 @@ struct DetailsSummaryCardView: View {
 
             HStack {
                 Text("Previsão de entrega:")
-                    .font(.custom("", fixedSize: 16))
+                    .designSystemFont(.body, .medium)
                     .foregroundColor(.neutralDark)
-                    .fontWeight(.bold)
 
                 Text("16 de Março")
-                    .font(.custom("", fixedSize: 16))
+                    .designSystemFont()
                     .foregroundColor(.neutralMain)
-                    .fontWeight(.medium)
 
                 Spacer()
             }.padding([.horizontal, .bottom])
 
             HStack {
                 Text("Total desta compra")
-                    .font(.custom("", fixedSize: 12))
+                    .designSystemFont(.extraSmallBody)
                     .foregroundColor(.neutralMain)
 
                 Spacer()
 
                 Text("R$ 250,00")
-                    .font(.custom("", fixedSize: 16))
+                    .designSystemFont(.body, .bold)
                     .foregroundColor(.neutralDark)
-                    .fontWeight(.black)
             }.padding([.horizontal, .bottom])
 
             FooterCardView("Alterar data") {}

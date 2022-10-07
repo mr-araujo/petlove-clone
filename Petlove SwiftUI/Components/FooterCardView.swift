@@ -23,9 +23,8 @@ struct FooterCardView: View {
 
             HStack {
                 Text(title)
-                    .font(.custom("", fixedSize: 16))
+                    .designSystemFont(.body, .medium)
                     .foregroundColor(.primaryMain)
-                    .fontWeight(.bold)
 
                 Spacer()
 
