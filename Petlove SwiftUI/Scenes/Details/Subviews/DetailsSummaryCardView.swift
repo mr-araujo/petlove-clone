@@ -63,6 +63,8 @@ struct DetailsSummaryCardView: View {
                     .foregroundColor(.neutralDark)
                     .fontWeight(.black)
             }.padding([.horizontal, .bottom])
+
+            FooterCardView("Alterar data") {}
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))
@@ -74,6 +76,6 @@ struct DetailsSummaryCardView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsSummaryCardView()
             .background(Color.neutralBG)
-            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 250))
+            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 300))
     }
 }

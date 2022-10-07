@@ -11,7 +11,7 @@ struct DetailsView: View {
     var body: some View {
         ZStack {
             Color.neutralBG
-                .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea([.top, .horizontal])
 
             ScrollView {
                 DetailsSummaryCardView()
