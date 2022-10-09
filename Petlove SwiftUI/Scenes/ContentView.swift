@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Color.neutralBG
+                .edgesIgnoringSafeArea([.top, .horizontal])
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
@@ -21,16 +22,20 @@ struct ContentView: View {
                 }
 
             Color.neutralBG
+                .edgesIgnoringSafeArea([.top, .horizontal])
                 .tabItem {
                     Label("Favoritos", systemImage: "suit.heart")
                 }
 
             Color.neutralBG
+                .edgesIgnoringSafeArea([.top, .horizontal])
+                .edgesIgnoringSafeArea([.top, .horizontal])
                 .tabItem {
                     Label("Notificações", systemImage: "bell")
                 }
 
             Color.neutralBG
+                .edgesIgnoringSafeArea([.top, .horizontal])
                 .tabItem {
                     Label("Menu", systemImage: "line.3.horizontal")
                 }

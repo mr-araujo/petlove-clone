@@ -19,6 +19,7 @@ struct FooterCardView: View {
     var body: some View {
         VStack {
             Divider()
+                .overlay(Color.neutralLight)
                 .padding(.bottom, 16)
 
             HStack {
