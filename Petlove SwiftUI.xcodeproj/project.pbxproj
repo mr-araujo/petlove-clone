@@ -24,6 +24,8 @@
 		62ABDF8928F0DAF400858BBD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7D28F0DAF300858BBD /* Roboto-Bold.ttf */; };
 		62ABDF8A28F0DAF400858BBD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7E28F0DAF300858BBD /* Roboto-Regular.ttf */; };
 		62ABDF8B28F0DAF400858BBD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7F28F0DAF400858BBD /* Roboto-Light.ttf */; };
+		62C958A228F3277700723E05 /* DetailsProductSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C958A128F3277700723E05 /* DetailsProductSectionView.swift */; };
+		62C958A528F34F3700723E05 /* DSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C958A428F34F3700723E05 /* DSButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		62ABDF7D28F0DAF300858BBD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		62ABDF7E28F0DAF300858BBD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		62ABDF7F28F0DAF400858BBD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		62C958A128F3277700723E05 /* DetailsProductSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductSectionView.swift; sourceTree = "<group>"; };
+		62C958A428F34F3700723E05 /* DSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 		6236070628E793970087CC1D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				62ABDF7228F0C98100858BBD /* FooterCardView.swift */,
+				62C958A328F329A600723E05 /* Button */,
+				62C958A028F3223300723E05 /* Thumbnail */,
+				62C9589F28F3222300723E05 /* Card */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				6236070728E793DB0087CC1D /* DetailsSummaryCardView.swift */,
+				62C958A128F3277700723E05 /* DetailsProductSectionView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -162,6 +169,29 @@
 				62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		62C9589F28F3222300723E05 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				62ABDF7228F0C98100858BBD /* FooterCardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		62C958A028F3223300723E05 /* Thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thumbnail;
+			sourceTree = "<group>";
+		};
+		62C958A328F329A600723E05 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				62C958A428F34F3700723E05 /* DSButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +275,10 @@
 				6236070528E792D20087CC1D /* DetailsView.swift in Sources */,
 				628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */,
 				6248F66F28E781FD0050DFD6 /* HomeView.swift in Sources */,
+				62C958A528F34F3700723E05 /* DSButton.swift in Sources */,
 				62ABDF7328F0C98100858BBD /* FooterCardView.swift in Sources */,
 				6226721028F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift in Sources */,
+				62C958A228F3277700723E05 /* DetailsProductSectionView.swift in Sources */,
 				6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */,
 				6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */,
 			);
