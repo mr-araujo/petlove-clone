@@ -9,13 +9,28 @@ import SwiftUI
 
 struct DetailsView: View {
     var body: some View {
-        ZStack {
-            Color.neutralBG
-                .edgesIgnoringSafeArea([.top, .horizontal])
+        VStack(spacing: 0) {
+            ZStack {
+                Color.neutralBG
+                    .edgesIgnoringSafeArea([.top, .horizontal])
 
-            ScrollView {
-                DetailsSummaryCardView()
+                ScrollView {
+                    DetailsSummaryCardView()
+                    DetailsProductSectionView()
+                }
             }
+
+            HStack(spacing: 16) {
+                Button("Pular compra") {
+
+                }.buttonStyle(Secondary(.medium))
+
+                Button("Antecipar compra") {
+
+                }.buttonStyle(Primary(.medium))
+            }
+            .padding()
+            .background(Color.neutralBG)
         }
     }
 }
