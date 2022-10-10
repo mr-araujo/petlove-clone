@@ -16,7 +16,7 @@
 		6248F67128E781FE0050DFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6248F67028E781FE0050DFD6 /* Assets.xcassets */; };
 		6248F67428E781FE0050DFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */; };
 		628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F43AB28ECED8C009F4BF9 /* ContentView.swift */; };
-		62ABDF7328F0C98100858BBD /* FooterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABDF7228F0C98100858BBD /* FooterCardView.swift */; };
+		62ABDF7328F0C98100858BBD /* DSFooterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABDF7228F0C98100858BBD /* DSFooterCardView.swift */; };
 		62ABDF8328F0DAF400858BBD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */; };
 		62ABDF8428F0DAF400858BBD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7828F0DAF300858BBD /* Roboto-Italic.ttf */; };
 		62ABDF8528F0DAF400858BBD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7928F0DAF300858BBD /* Roboto-Black.ttf */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6226720E28F0E043001A3CCD /* Petlove-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Petlove-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6226720E28F0E043001A3CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		6226720F28F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystemFont+ViewModifier.swift"; sourceTree = "<group>"; };
 		623606FF28E78D530087CC1D /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
 		6236070428E792D20087CC1D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		6248F67028E781FE0050DFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		628F43AB28ECED8C009F4BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		62ABDF7228F0C98100858BBD /* FooterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCardView.swift; sourceTree = "<group>"; };
+		62ABDF7228F0C98100858BBD /* DSFooterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSFooterCardView.swift; sourceTree = "<group>"; };
 		62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		62ABDF7828F0DAF300858BBD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		62ABDF7928F0DAF300858BBD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		6248F66B28E781FD0050DFD6 /* Petlove SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				6226720E28F0E043001A3CCD /* Petlove-SwiftUI-Info.plist */,
+				6226720E28F0E043001A3CCD /* Info.plist */,
 				6248F66C28E781FD0050DFD6 /* PetloveApp.swift */,
 				623606FE28E78D2A0087CC1D /* Utils */,
 				62ABDF7428F0DAC900858BBD /* Fonts */,
@@ -174,7 +174,7 @@
 		62C9589F28F3222300723E05 /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				62ABDF7228F0C98100858BBD /* FooterCardView.swift */,
+				62ABDF7228F0C98100858BBD /* DSFooterCardView.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 				628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */,
 				6248F66F28E781FD0050DFD6 /* HomeView.swift in Sources */,
 				62C958A528F34F3700723E05 /* DSButton.swift in Sources */,
-				62ABDF7328F0C98100858BBD /* FooterCardView.swift in Sources */,
+				62ABDF7328F0C98100858BBD /* DSFooterCardView.swift in Sources */,
 				6226721028F0E1FE001A3CCD /* DesignSystemFont+ViewModifier.swift in Sources */,
 				62C958A228F3277700723E05 /* DetailsProductSectionView.swift in Sources */,
 				6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */,
@@ -414,7 +414,7 @@
 				DEVELOPMENT_TEAM = C97V5ZU9S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Petlove-SwiftUI-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,7 +445,7 @@
 				DEVELOPMENT_TEAM = C97V5ZU9S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Petlove-SwiftUI-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

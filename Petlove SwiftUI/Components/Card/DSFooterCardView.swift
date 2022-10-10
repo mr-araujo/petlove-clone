@@ -1,5 +1,5 @@
 //
-//  FooterCardView.swift
+//  DSFooterCardView.swift
 //  Petlove SwiftUI
 //
 //  Created by Murillo R. Araújo on 07/10/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FooterCardView: View {
+struct DSFooterCardView: View {
     let title: String
     let action: (() -> Void)
 
@@ -42,7 +42,7 @@ struct FooterCardView: View {
 
 struct FooterCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FooterCardView("Alterar Data") {}
+        DSFooterCardView("Alterar Data") {}
             .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 80))
     }
 }

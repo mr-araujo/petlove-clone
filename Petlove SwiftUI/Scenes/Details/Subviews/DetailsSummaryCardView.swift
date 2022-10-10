@@ -61,7 +61,7 @@ struct DetailsSummaryCardView: View {
                     .foregroundColor(.neutralDark)
             }.padding([.horizontal, .bottom])
 
-            FooterCardView("Alterar data") {}
+            DSFooterCardView("Alterar data") {}
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))
