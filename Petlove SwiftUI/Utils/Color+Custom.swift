@@ -8,6 +8,8 @@
 import SwiftUI
 
 extension Color {
+    /// Color: #627384
+    static let neutral = Color("Neutral")
     /// Color: #FBF9F7
     static let neutralBG = Color("NeutralBG")
     /// Color: #635D57

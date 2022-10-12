@@ -20,7 +20,6 @@ struct DSFooterCardView: View {
         VStack {
             Divider()
                 .overlay(Color.neutralLight)
-                .padding(.bottom, 16)
 
             HStack {
                 Text(title)
@@ -35,8 +34,8 @@ struct DSFooterCardView: View {
                     Image(systemName: "arrow.forward")
                         .foregroundColor(.primaryMain)
                 }
-            }
-        }.padding([.horizontal, .bottom])
+            }.padding(.top, 8)
+        }.padding(.horizontal)
     }
 }
 
