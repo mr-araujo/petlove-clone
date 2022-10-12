@@ -15,8 +15,14 @@ struct DetailsView: View {
                     .edgesIgnoringSafeArea([.top, .horizontal])
 
                 ScrollView {
-                    DetailsSummaryCardView()
-                    DetailsProductSectionView()
+                    VStack(spacing: 16) {
+                        DetailsSummaryCardView()
+                        DetailsProductSectionView()
+
+                        ForEach((1...2), id: \.self) { _ in
+                            DetailsProductCardView()
+                        }
+                    }
                 }
             }
 

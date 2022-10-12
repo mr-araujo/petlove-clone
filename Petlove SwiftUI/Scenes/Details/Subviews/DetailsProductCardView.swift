@@ -25,7 +25,7 @@ struct DetailsProductCardView: View {
                     }
 
                     HStack {
-                        Text("Pacote com 10Kg")
+                        Text("Pacote 10Kg")
                             .designSystemFont(.smallBody, .regular)
                             .foregroundColor(.neutralMain)
 
@@ -47,6 +47,8 @@ struct DetailsProductCardView: View {
             }
 
             HStack {
+                DSCounterView(count: 3)
+
                 Spacer()
 
                 VStack {
@@ -62,20 +64,18 @@ struct DetailsProductCardView: View {
             }.padding([.bottom, .horizontal])
 
             DSFooterCardView("Entrega a cada 2 meses") {}
-                .padding(.bottom)
-
-
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .padding()
+        .padding(.horizontal)
     }
 }
 
 struct DetailsProductCardView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsProductCardView()
+            .padding(.vertical)
             .background(Color.neutralBG)
-            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 230))
+            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 240))
     }
 }

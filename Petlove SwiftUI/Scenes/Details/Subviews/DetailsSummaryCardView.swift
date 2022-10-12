@@ -65,13 +65,14 @@ struct DetailsSummaryCardView: View {
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .padding()
+        .padding(.horizontal)
     }
 }
 
 struct DetailsSummaryCardView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsSummaryCardView()
+            .padding(.vertical)
             .background(Color.neutralBG)
             .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 300))
     }

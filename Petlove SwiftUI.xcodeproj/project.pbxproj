@@ -11,6 +11,7 @@
 		6236070028E78D530087CC1D /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623606FF28E78D530087CC1D /* Color+Custom.swift */; };
 		6236070528E792D20087CC1D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236070428E792D20087CC1D /* DetailsView.swift */; };
 		6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236070728E793DB0087CC1D /* DetailsSummaryCardView.swift */; };
+		6239B46728F76582002605E2 /* DSCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239B46628F76582002605E2 /* DSCounterView.swift */; };
 		6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248F66C28E781FD0050DFD6 /* PetloveApp.swift */; };
 		6248F66F28E781FD0050DFD6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248F66E28E781FD0050DFD6 /* HomeView.swift */; };
 		6248F67128E781FE0050DFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6248F67028E781FE0050DFD6 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		623606FF28E78D530087CC1D /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
 		6236070428E792D20087CC1D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		6236070728E793DB0087CC1D /* DetailsSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSummaryCardView.swift; sourceTree = "<group>"; };
+		6239B46628F76582002605E2 /* DSCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSCounterView.swift; sourceTree = "<group>"; };
 		6248F66928E781FD0050DFD6 /* Petlove SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petlove SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6248F66C28E781FD0050DFD6 /* PetloveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetloveApp.swift; sourceTree = "<group>"; };
 		6248F66E28E781FD0050DFD6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -106,11 +108,20 @@
 		6236070628E793970087CC1D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				6239B46528F7653D002605E2 /* Counter */,
 				62C958A328F329A600723E05 /* Button */,
 				62C958A028F3223300723E05 /* Thumbnail */,
 				62C9589F28F3222300723E05 /* Card */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		6239B46528F7653D002605E2 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				6239B46628F76582002605E2 /* DSCounterView.swift */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 		6248F66028E781FD0050DFD6 = {
@@ -277,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6239B46728F76582002605E2 /* DSCounterView.swift in Sources */,
 				6236070028E78D530087CC1D /* Color+Custom.swift in Sources */,
 				6236070528E792D20087CC1D /* DetailsView.swift in Sources */,
 				628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */,

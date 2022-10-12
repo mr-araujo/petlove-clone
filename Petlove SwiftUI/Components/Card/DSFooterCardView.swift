@@ -35,7 +35,7 @@ struct DSFooterCardView: View {
                         .foregroundColor(.primaryMain)
                 }
             }.padding(.top, 8)
-        }.padding(.horizontal)
+        }.padding()
     }
 }
 
