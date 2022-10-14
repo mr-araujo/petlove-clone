@@ -12,12 +12,13 @@ struct DetailsSummaryCardView: View {
         VStack {
             HStack {
                 Image(systemName: "calendar")
-                    .resizable()
-                    .frame(width: 24, height: 24)
+                    .designSystemFont(.smallTitle)
                     .foregroundColor(.neutralDark)
 
                 Spacer()
-            }.padding()
+            }
+            .padding(.bottom, 8)
+            .padding([.top, .horizontal])
 
             HStack {
                 Text("Data de Pagamento")
@@ -59,7 +60,9 @@ struct DetailsSummaryCardView: View {
                 Text("R$ 250,00")
                     .designSystemFont(.body, .bold)
                     .foregroundColor(.neutralDark)
-            }.padding([.horizontal, .bottom])
+            }
+            .padding(.bottom, 8)
+            .padding(.horizontal)
 
             DSFooterCardView("Alterar data") {}
         }

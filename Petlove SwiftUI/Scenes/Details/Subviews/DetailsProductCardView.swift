@@ -61,7 +61,9 @@ struct DetailsProductCardView: View {
                         .designSystemFont(.smallBody, .bold)
                         .foregroundColor(.neutralDark)
                 }
-            }.padding([.bottom, .horizontal])
+            }
+            .padding(.bottom, 8)
+            .padding(.horizontal)
 
             DSFooterCardView("Entrega a cada 2 meses") {}
         }

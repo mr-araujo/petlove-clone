@@ -22,6 +22,8 @@ struct DetailsView: View {
                         ForEach((1...2), id: \.self) { _ in
                             DetailsProductCardView()
                         }
+
+                        DetailsAddressCardView()
                     }
                 }
             }

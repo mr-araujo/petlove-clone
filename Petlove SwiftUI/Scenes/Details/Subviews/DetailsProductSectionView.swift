@@ -12,8 +12,7 @@ struct DetailsProductSectionView: View {
         VStack(spacing: 18) {
             HStack(spacing: 18) {
                 Image(systemName: "shippingbox")
-                    .resizable()
-                    .frame(width: 24, height: 24)
+                    .designSystemFont(.smallTitle)
                     .foregroundColor(.neutralDark)
 
                 Text("Produtos dessa compra")
