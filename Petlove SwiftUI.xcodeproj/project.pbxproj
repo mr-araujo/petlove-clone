@@ -18,7 +18,9 @@
 		6248F67428E781FE0050DFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */; };
 		624F539128F493AD00FA54E0 /* DSThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624F539028F493AD00FA54E0 /* DSThumbnailView.swift */; };
 		624F539328F4A5CA00FA54E0 /* DetailsProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624F539228F4A5CA00FA54E0 /* DetailsProductCardView.swift */; };
+		6256748F28FDFD2E00F2B9D9 /* DSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6256748E28FDFD2E00F2B9D9 /* DSPickerView.swift */; };
 		6267FDA428FA0A72007FA873 /* DetailsAddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267FDA328FA0A72007FA873 /* DetailsAddressCardView.swift */; };
+		6267FDA628FA1EEC007FA873 /* DetailsPaymentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267FDA528FA1EEC007FA873 /* DetailsPaymentCardView.swift */; };
 		628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F43AB28ECED8C009F4BF9 /* ContentView.swift */; };
 		62ABDF7328F0C98100858BBD /* DSFooterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABDF7228F0C98100858BBD /* DSFooterCardView.swift */; };
 		62ABDF8328F0DAF400858BBD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */; };
@@ -46,7 +48,9 @@
 		6248F67328E781FE0050DFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		624F539028F493AD00FA54E0 /* DSThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSThumbnailView.swift; sourceTree = "<group>"; };
 		624F539228F4A5CA00FA54E0 /* DetailsProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductCardView.swift; sourceTree = "<group>"; };
+		6256748E28FDFD2E00F2B9D9 /* DSPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPickerView.swift; sourceTree = "<group>"; };
 		6267FDA328FA0A72007FA873 /* DetailsAddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAddressCardView.swift; sourceTree = "<group>"; };
+		6267FDA528FA1EEC007FA873 /* DetailsPaymentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPaymentCardView.swift; sourceTree = "<group>"; };
 		628F43AB28ECED8C009F4BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62ABDF7228F0C98100858BBD /* DSFooterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSFooterCardView.swift; sourceTree = "<group>"; };
 		62ABDF7728F0DAF300858BBD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		6236070628E793970087CC1D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				6256748D28FDFD1D00F2B9D9 /* Picker */,
 				6239B46528F7653D002605E2 /* Counter */,
 				62C958A328F329A600723E05 /* Button */,
 				62C958A028F3223300723E05 /* Thumbnail */,
@@ -165,6 +170,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6256748D28FDFD1D00F2B9D9 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6256748E28FDFD2E00F2B9D9 /* DSPickerView.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
 		62ABDF7128F0C91800858BBD /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +185,7 @@
 				62C958A128F3277700723E05 /* DetailsProductSectionView.swift */,
 				624F539228F4A5CA00FA54E0 /* DetailsProductCardView.swift */,
 				6267FDA328FA0A72007FA873 /* DetailsAddressCardView.swift */,
+				6267FDA528FA1EEC007FA873 /* DetailsPaymentCardView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -292,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6239B46728F76582002605E2 /* DSCounterView.swift in Sources */,
+				6267FDA628FA1EEC007FA873 /* DetailsPaymentCardView.swift in Sources */,
 				6236070028E78D530087CC1D /* Color+Custom.swift in Sources */,
 				6236070528E792D20087CC1D /* DetailsView.swift in Sources */,
 				628F43AC28ECED8C009F4BF9 /* ContentView.swift in Sources */,
@@ -304,6 +319,7 @@
 				6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */,
 				6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */,
 				6267FDA428FA0A72007FA873 /* DetailsAddressCardView.swift in Sources */,
+				6256748F28FDFD2E00F2B9D9 /* DSPickerView.swift in Sources */,
 				624F539328F4A5CA00FA54E0 /* DetailsProductCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
