@@ -57,7 +57,7 @@ struct DetailsSummaryCardView: View {
 
                 Spacer()
 
-                Text("R$ 250,00")
+                Text("R$ 300,00")
                     .designSystemFont(.body, .bold)
                     .foregroundColor(.neutralDark)
             }

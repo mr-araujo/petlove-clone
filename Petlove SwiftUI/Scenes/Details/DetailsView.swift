@@ -24,6 +24,7 @@ struct DetailsView: View {
                         }
 
                         DetailsAddressCardView()
+                        DetailsPaymentCardView()
                     }
                 }
             }
