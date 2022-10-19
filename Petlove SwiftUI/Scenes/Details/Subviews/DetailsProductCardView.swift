@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DetailsProductCardView: View {
+    @State private var isShowingSheet = false
     var body: some View {
         VStack {
             HStack(alignment: .top) {
@@ -36,7 +37,7 @@ struct DetailsProductCardView: View {
 
                 VStack {
                     Button {
-
+                        isShowingSheet.toggle()
                     } label: {
                         Image(systemName: "trash")
                             .resizable()
@@ -44,6 +45,13 @@ struct DetailsProductCardView: View {
                             .foregroundColor(.primaryMain)
                     }
                     .padding(8)
+                    .sheet(isPresented: $isShowingSheet) {
+
+                        DetailsDeleteProductView()
+                            .presentationDetents([.height(330)])
+                            .presentationDragIndicator(.visible)
+
+                    }
                 }.padding([.trailing, .vertical])
             }
 

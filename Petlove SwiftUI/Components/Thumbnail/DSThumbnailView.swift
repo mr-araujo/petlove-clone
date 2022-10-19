@@ -14,9 +14,9 @@ struct Thumbnail {
         case extraSmall
         /// Thumbnail size: 56
         case small
-        /// Thumbnail size: 56
-        case medium
         /// Thumbnail size: 64
+        case medium
+        /// Thumbnail size: 80
         case large
         /// Thumbnail size: 96
         case extraLarge
