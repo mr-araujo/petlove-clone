@@ -68,7 +68,7 @@ struct DSThumbnailView: View {
             }
         }
         .frame(width: getProperties().dimension, height: getProperties().dimension)
-        .padding(12)
+        .padding(border == .outline ? 12 : 0)
         .overlay(
             RoundedRectangle(cornerRadius: getProperties().border)
                 .stroke(Color.neutralLightest, lineWidth: border == .outline ? 1 : 0)

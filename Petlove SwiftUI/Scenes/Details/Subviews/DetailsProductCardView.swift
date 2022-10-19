@@ -12,7 +12,7 @@ struct DetailsProductCardView: View {
         VStack {
             HStack(alignment: .top) {
 
-                DSThumbnailView(image: "True", count: 9)
+                DSThumbnailView(image: "True", quantity: 9, size: .extraSmall)
                     .padding([.leading, .vertical])
 
                 VStack {
@@ -20,6 +20,7 @@ struct DetailsProductCardView: View {
                         Text("Ração Úmida Whiskas Sachê Carne ao Molho para Gatos Filhotes")
                             .designSystemFont(.smallBody, .regular)
                             .foregroundColor(.neutralDark)
+                            .minimumScaleFactor(0.9)
 
                         Spacer()
                     }
