@@ -10,11 +10,10 @@ import SwiftUI
 struct HomeMenuCardView: View {
     let icon: String
     let title: String
-    let destination: AnyView
 
     var body: some View {
         NavigationLink {
-            destination
+            Text("Hello World!")
         } label: {
             VStack {
                 HStack {
@@ -30,7 +29,8 @@ struct HomeMenuCardView: View {
 
                 HStack {
                     Text(title)
-                        .designSystemFont(.extraSmallBody, .bold)
+                        .designSystemFont(.extraSmallBody, .regular)
+                        .multilineTextAlignment(.leading)
                         .foregroundColor(.neutralMain)
 
                     Spacer()
@@ -48,13 +48,9 @@ struct HomeMenuCardView: View {
 
 struct HomeMenuCardView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeMenuCardView(
-            icon: "calendar",
-            title: "Produtos recorrentes",
-            destination: AnyView(Text("Hello World!"))
-        )
-            .padding(.vertical)
-            .background(Color.neutralBG)
-            .previewLayout(.fixed(width: 130, height: 150))
+        HomeMenuCardView(icon: "calendar", title: "Produtos recorrentes")
+        .padding(.vertical)
+        .background(Color.neutralBG)
+        .previewLayout(.fixed(width: 130, height: 150))
     }
 }

@@ -22,6 +22,12 @@ struct HomeView: View {
                 ScrollView {
                     VStack(spacing: 16) {
                         HomeNextDeliveryCardView()
+
+                        HStack(spacing: -20) {
+                            HomeMenuCardView(icon: "arrow.2.circlepath", title: "Produtos recorrentes")
+                            HomeMenuCardView(icon: "calendar", title: "Agrupar pedidos")
+                            HomeMenuCardView(icon: "multiply.circle", title: "Cancelar recorrências")
+                        }
                     }
                 }.padding(.top)
             }
