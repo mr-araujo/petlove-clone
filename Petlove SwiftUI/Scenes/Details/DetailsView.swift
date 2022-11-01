@@ -26,7 +26,7 @@ struct DetailsView: View {
                         DetailsAddressCardView()
                         DetailsPaymentCardView()
                     }
-                }
+                }.padding(.top)
             }
 
             HStack(spacing: 16) {
@@ -41,6 +41,25 @@ struct DetailsView: View {
             .padding()
             .background(Color.neutralBG)
         }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+
+                } label: {
+                    Image(systemName: "arrow.left")
+                        .foregroundColor(.neutralDarkest)
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+
+                } label: {
+                    Image(systemName: "questionmark.bubble")
+                        .foregroundColor(.neutralDarkest)
+                }
+            }
+        }
+        .navigationBarBackButtonHidden()
     }
 }
 

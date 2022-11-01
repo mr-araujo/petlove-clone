@@ -74,7 +74,7 @@ struct DetailsProductCardView: View {
             .padding(.bottom, 8)
             .padding(.horizontal)
 
-            DSFooterCardView("Entrega a cada 2 meses") {}
+            DSFooterCardView("Entrega a cada 2 meses", destination: AnyView(Text("Hello World!")))
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))

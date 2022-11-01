@@ -9,11 +9,11 @@ import SwiftUI
 
 struct DSFooterCardView: View {
     let title: String
-    let action: (() -> Void)
+    let destination: AnyView
 
-    init(_ title: String, action: @escaping () -> Void) {
+    init(_ title: String, destination: AnyView) {
         self.title = title
-        self.action = action
+        self.destination = destination
     }
 
     var body: some View {
@@ -21,27 +21,27 @@ struct DSFooterCardView: View {
             Divider()
                 .overlay(Color.neutralLight)
 
-            HStack {
-                Text(title)
-                    .designSystemFont(.body, .medium)
-                    .foregroundColor(.primaryMain)
+            NavigationLink {
+                destination
+            } label: {
+                HStack {
+                    Text(title)
+                        .designSystemFont(.body, .medium)
+                        .foregroundColor(.primaryMain)
 
-                Spacer()
+                    Spacer()
 
-                Button {
-
-                } label: {
                     Image(systemName: "arrow.forward")
                         .foregroundColor(.primaryMain)
-                }
-            }.padding(.top, 8)
+                }.padding(.top, 8)
+            }
         }.padding([.bottom, .horizontal])
     }
 }
 
 struct FooterCardView_Previews: PreviewProvider {
     static var previews: some View {
-        DSFooterCardView("Alterar Data") {}
+        DSFooterCardView("Alterar Data", destination: AnyView(Text("Hello World!")))
             .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 80))
     }
 }

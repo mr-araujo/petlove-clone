@@ -40,7 +40,7 @@ struct DetailsAddressCardView: View {
             .padding(.bottom, 8)
             .padding(.horizontal)
 
-            DSFooterCardView("Alterar endereço") {}
+            DSFooterCardView("Alterar endereço", destination: AnyView(Text("Hello World!")))
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))

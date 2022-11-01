@@ -64,7 +64,7 @@ struct DetailsSummaryCardView: View {
             .padding(.bottom, 8)
             .padding(.horizontal)
 
-            DSFooterCardView("Alterar data") {}
+            DSFooterCardView("Alterar data", destination: AnyView(Text("Hello World!")))
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))

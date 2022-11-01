@@ -46,7 +46,7 @@ struct DetailsPaymentCardView: View {
             .padding(.bottom, 8)
             .padding([.top, .horizontal])
 
-            DSFooterCardView("Alterar endereço") {}
+            DSFooterCardView("Alterar dados de pagamento", destination: AnyView(Text("Hello World!")))
         }
         .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 16))

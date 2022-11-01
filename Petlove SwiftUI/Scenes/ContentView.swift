@@ -29,7 +29,6 @@ struct ContentView: View {
 
             Color.neutralBG
                 .edgesIgnoringSafeArea([.top, .horizontal])
-                .edgesIgnoringSafeArea([.top, .horizontal])
                 .tabItem {
                     Label("Notificações", systemImage: "bell")
                 }
