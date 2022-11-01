@@ -7,16 +7,23 @@
 
 import SwiftUI
 
-struct HomeView: View {
+enum HomeRoute: String {
+    case details
+}
 
-    @State var paths: [NavigationPath] = []
+struct HomeView: View {
+    @State var routes: [HomeRoute] = []
+
     var body: some View {
-        NavigationStack(path: $paths) {
+        NavigationStack(path: $routes) {
             ZStack {
                 Color.neutralBG.edgesIgnoringSafeArea([.horizontal, .top])
-                Button("Detalhes") {
-                    paths.append(.details)
-                }
+
+                ScrollView {
+                    VStack(spacing: 16) {
+                        HomeNextDeliveryCardView()
+                    }
+                }.padding(.top)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -30,14 +37,14 @@ struct HomeView: View {
                     Button {
 
                     } label: {
-                        Image(systemName: "questionmark.square")
+                        Image(systemName: "questionmark.bubble")
                             .foregroundColor(.neutralDarkest)
                     }
                 }
             }
-            .navigationDestination(for: NavigationPath.self) { view in
+            .navigationDestination(for: HomeRoute.self) { view in
                 switch view {
-                    case .details: DetailsView()
+                case .details: DetailsView()
                 }
             }
         }
@@ -48,8 +55,4 @@ struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
     }
-}
-
-enum NavigationPath: String, Hashable {
-    case details = "Details View"
 }

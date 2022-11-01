@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DetailsView: View {
+    @Environment(\.dismiss) private var dismiss
+    
     var body: some View {
         VStack(spacing: 0) {
             ZStack {
@@ -44,7 +46,7 @@ struct DetailsView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button {
-
+                    dismiss()
                 } label: {
                     Image(systemName: "arrow.left")
                         .foregroundColor(.neutralDarkest)
