@@ -22,6 +22,7 @@
 		6258DF4029117AC200325565 /* HomeNextDeliveryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258DF3F29117AC200325565 /* HomeNextDeliveryCardView.swift */; };
 		6258DF452911BC0A00325565 /* HomeMenuCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258DF442911BC0A00325565 /* HomeMenuCardView.swift */; };
 		6258DF472911C75300325565 /* HomeDeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258DF462911C75300325565 /* HomeDeliveryView.swift */; };
+		6258DF492911CD7700325565 /* HomeUpcomingDeliveriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258DF482911CD7700325565 /* HomeUpcomingDeliveriesCardView.swift */; };
 		6267FDA428FA0A72007FA873 /* DetailsAddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267FDA328FA0A72007FA873 /* DetailsAddressCardView.swift */; };
 		6267FDA628FA1EEC007FA873 /* DetailsPaymentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267FDA528FA1EEC007FA873 /* DetailsPaymentCardView.swift */; };
 		6287C1942900936B00FC73A3 /* DetailsDeleteProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6287C1932900936B00FC73A3 /* DetailsDeleteProductView.swift */; };
@@ -56,6 +57,7 @@
 		6258DF3F29117AC200325565 /* HomeNextDeliveryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNextDeliveryCardView.swift; sourceTree = "<group>"; };
 		6258DF442911BC0A00325565 /* HomeMenuCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuCardView.swift; sourceTree = "<group>"; };
 		6258DF462911C75300325565 /* HomeDeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDeliveryView.swift; sourceTree = "<group>"; };
+		6258DF482911CD7700325565 /* HomeUpcomingDeliveriesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUpcomingDeliveriesCardView.swift; sourceTree = "<group>"; };
 		6267FDA328FA0A72007FA873 /* DetailsAddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAddressCardView.swift; sourceTree = "<group>"; };
 		6267FDA528FA1EEC007FA873 /* DetailsPaymentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPaymentCardView.swift; sourceTree = "<group>"; };
 		6287C1932900936B00FC73A3 /* DetailsDeleteProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDeleteProductView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				6258DF3F29117AC200325565 /* HomeNextDeliveryCardView.swift */,
 				6258DF442911BC0A00325565 /* HomeMenuCardView.swift */,
 				6258DF462911C75300325565 /* HomeDeliveryView.swift */,
+				6258DF482911CD7700325565 /* HomeUpcomingDeliveriesCardView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				6248F66D28E781FD0050DFD6 /* PetloveApp.swift in Sources */,
 				6236070828E793DB0087CC1D /* DetailsSummaryCardView.swift in Sources */,
 				6267FDA428FA0A72007FA873 /* DetailsAddressCardView.swift in Sources */,
+				6258DF492911CD7700325565 /* HomeUpcomingDeliveriesCardView.swift in Sources */,
 				6287C1942900936B00FC73A3 /* DetailsDeleteProductView.swift in Sources */,
 				6256748F28FDFD2E00F2B9D9 /* DSPickerView.swift in Sources */,
 				624F539328F4A5CA00FA54E0 /* DetailsProductCardView.swift in Sources */,

@@ -28,8 +28,12 @@ struct HomeView: View {
                             HomeMenuCardView(icon: "calendar", title: "Agrupar pedidos")
                             HomeMenuCardView(icon: "multiply.circle", title: "Cancelar recorrências")
                         }
+
+                        HomeUpcomingDeliveriesCardView()
                     }
-                }.padding(.top)
+                }
+                .padding(.top)
+                .padding(.bottom, 6)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {

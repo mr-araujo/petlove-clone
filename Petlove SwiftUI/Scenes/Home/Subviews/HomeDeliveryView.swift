@@ -31,7 +31,7 @@ struct HomeDeliveryView: View {
                     Spacer()
 
                     Image(systemName: "chevron.right")
-                        .font(.system(size: 24))
+                        .designSystemFont(.smallTitle)
                         .foregroundColor(.primaryMain)
                 }
             }
@@ -44,6 +44,7 @@ struct HomeDeliveryView: View {
                 }
             }.padding(.top)
         }
+        .padding(.bottom, 8)
         .padding(.horizontal)
     }
 }
@@ -51,6 +52,6 @@ struct HomeDeliveryView: View {
 struct HomeDeliveryView_Previews: PreviewProvider {
     static var previews: some View {
         HomeDeliveryView()
-            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 200))
+            .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 210))
     }
 }
